@@ -9,8 +9,8 @@
 * [Avvio dell'applicazione](#avvio)
 * [Rotte](#rotte)
 * [Rotte Aggiuntive](#rotteaggiuntive)
-* [Test](#test)
-* [Documentazione](#doc)
+* [JUnit Test](#test)
+* [Documentazione Javadoc](#doc)
 * [Autori](#autor)
 
 <a name="intro"></a>
@@ -169,3 +169,7 @@ L'utente riceverà un JSONObject in risposta come segue:
 
 
 ```
+<a name="test"></a>
+## JUnit Test
+<a name="doc"></a>
+## Documentazione Javadoc
