@@ -24,32 +24,52 @@ quale tra i paesi selezionati presenti il maggior e il minor numero di eventi me
 la media degli eventi mensili dei paesi/generi specificati dall'utente.
 </p>
 
+<a name="uml"></a>
+## Diagrammi UML
+
+*Diagramma dei Casi d'Uso*
+***
+*Diagramma delle Classi*
+***
+*Diagramma delle Sequenze*
+***
+
 <a name="rotte"></a>
 ## Rotte
 <p align="justify">
-L'utente può effettuare le richieste tramite Postman all'indirizzo:
-```
-localhost:8080
-```
-Le principali rotte definite sono le seguenti:
+L'utente può effettuare le richieste tramite Postman, all'indirizzo: <b> "localhost:8080" </b>
+
+Le rotte definite sono le seguenti:
 
 N° | Tipo | Rotta | Descrizione
 ----- | ------------ | -------------------- | ----------------------
-[1](#1) | ` POST ` | `/total` | *restituisce un JSONArray contenente il numero totale di eventi, che possono essere filtrati per uno o più stati e/o per uno o più generi*
-[2](#2) | ` POST ` | `/genretotal` | *restituisce un JSONArray contenente il numero totale di eventi raggruppati per genere, che possono essere filtrati per uno o più stati*
-[3](#3) | ` POST ` | `/stats` | *restituisce un JSONArray contenente le statistiche relative al numero minimo, massimo, medio di eventi mensili, che possono essere filtrati per uno o più stati e/o per uno o più generi*
+[1](#1) | ` POST ` | `/total` | *Restituisce un JSONArray contenente il numero totale di eventi, che possono essere filtrati per uno o più stati e/o per uno o più generi.*
+[2](#2) | ` POST ` | `/genretotal` | *Restituisce un JSONArray contenente il numero totale di eventi raggruppati per genere, che possono essere filtrati per uno o più stati.*
+[3](#3) | ` POST ` | `/stats` | *Restituisce un JSONArray contenente le statistiche relative al numero minimo, massimo, medio di eventi mensili, che possono essere filtrati per uno o più stati e/o per uno o più generi.*
 
 </p>
 
-### Body della rotta e risposta JSON
+## Body della rotta e risposta JSON
 Dal momento che tutte le rotte sono di tipo POST, l'utente necessita di un Body per effettuare le richieste.
+
+### Requisiti per il corretto funzionamento
+
+CountryComparison: richiede una stringa di tipo "Country" o "All".
+
+CountryName: richiede un idcountry ammesso.
+
+GenreComparison: richiede una stringa di tipo "Genre" o "All".
+
+GenreName: richiede un genere ammesso.
 
 <a name="1"></a>
 ## 1.   /total
+```
+localhost:8080/total
+```
 Richiede un body di questo tipo:
-{
 
-     "CountryComparison": "All",
+     "CountryComparison": "Country",
      "CountryElements": [
         {
           "CountryName": "GB"
@@ -59,7 +79,7 @@ Richiede un body di questo tipo:
         }
       ],
 
-     "GenreComparison": "All",
+     "GenreComparison": "Genre",
      "GenreElements": [
         {
           "GenreName": "Rock"
@@ -69,16 +89,22 @@ Richiede un body di questo tipo:
         }
      ]
 
-La prima rotta restituisce un JSONObject contentente a sua volta i JSONObject che riportano le informazioni relative agli eventi del paese selezionato, mentre in fondo sono presenti campi indicanti rispettivamente il numero di eventi mostrati ed il numero totale di eventi esistenti. Possono essere inseriti countryCode solo di paesi europei (la lista dei countryCode ammessi è presente sotto), altrimenti verrà lanciata un'eccezione.
+In tal caso, viene visualizzato il numero totale di eventi che si svolgono in Gran Bretagna e in Francia i cui generi sono Rock e Pop.
 
-Di seguito vengono mostrati i codici dei paesi europei supportati da Ticketmaster:
+L'utente riceverà un JSONObject in risposta come segue:
 
+```
+{
+    "Events": [
+```
 <a name="2"></a>
 ## 2.   /genretotal
+```
+localhost:8080/genretotal
+```
 Richiede un body di questo tipo:
-{
 
-     "CountryComparison": "All",
+     "CountryComparison": "Country",
      "CountryElements": [
         {
           "CountryName": "GB"
@@ -87,12 +113,23 @@ Richiede un body di questo tipo:
           "CountryName": "FR"
         }
       ]
+      
+In tal caso, viene visualizzato il numero totale di eventi, raggruppati per genere, che si svolgono in Gran Bretagna e in Francia.
+
+L'utente riceverà un JSONObject in risposta come segue:
+
+```
+{
+    "Events": [
+```
      
      
  <a name="3"></a>
 ## 3.   /stats
+```
+localhost:8080/stats
+```
 Richiede un body di questo tipo:
-{
 
      "CountryComparison": "All",
      "CountryElements": [
@@ -113,3 +150,13 @@ Richiede un body di questo tipo:
           "GenreName": "Pop"
         }
      ]
+
+In tal caso, viene visualizzato il paese con il minore e il maggiore numero totale di eventi mensili tra Gran Bretagna e Francia, i cui generi sono Rock e Pop. 
+Inoltre viene visualizzata la media di eventi totali mensili che si svolgono in Gran Bretagna e Francia.
+
+L'utente riceverà un JSONObject in risposta come segue:
+
+```
+{
+    "Events": [
+```
