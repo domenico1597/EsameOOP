@@ -55,9 +55,13 @@ Dal momento che tutte le rotte sono di tipo POST, l'utente necessita di un Body 
 
 CountryComparison: richiede una stringa di tipo "Country" o "All".
 
+CountryElements: vettore contenente tutti gli idcountry.
+
 CountryName: richiede un idcountry ammesso.
 
 GenreComparison: richiede una stringa di tipo "Genre" o "All".
+
+GenreElements: vettore contenente tutti i generi.
 
 GenreName: richiede un genere ammesso.
 
@@ -97,11 +101,6 @@ L'utente riceverà un JSONObject in risposta come segue:
 
 ![Screenshot (203)](https://user-images.githubusercontent.com/114992312/212469802-c660d598-f14b-465d-8233-1bdaa7501123.png)
 
-
-```
-{
-    "Events": [
-```
 <a name="2"></a>
 ### 2.   /genretotal
 ```
@@ -123,15 +122,9 @@ In tal caso, viene visualizzato il numero totale di eventi, raggruppati per gene
 
 L'utente riceverà un JSONObject in risposta come segue:
 
-```
-```
 ![Screenshot (204)](https://user-images.githubusercontent.com/114992312/212469852-615a3fa4-4a82-430b-93a9-b4995f42e9b2.png)
 
-
-
-     
-     
- <a name="3"></a>
+<a name="3"></a>
 ### 3.   /stats
 ```
 localhost:8080/stats
@@ -163,11 +156,7 @@ Inoltre viene visualizzata la media di eventi totali mensili che si svolgono in 
 
 L'utente riceverà un JSONObject in risposta come segue:
 
-```
-```
 ![Screenshot (205)](https://user-images.githubusercontent.com/114992312/212469871-bd1cd615-0853-4a29-88b2-24fdbc224909.png)
-
-
 
 <a name="test"></a>
 ## JUnit Test
