@@ -58,13 +58,13 @@ Elemento | Descrizione
 ----- | ------------ |
 | ` CountryComparison ` | *Richiede una stringa di tipo "Country" o "All".*
 | ` CountryElements ` | *Vettore contenente tutti gli idcountry inseriti dall'utente.*
-| ` CountryName ` | *Richiede un idcountry ammesso.*
+| ` CountryName ` | *Richiede un idcountry ammesso da Ticketmaster.*
 
 Elemento | Descrizione
 ----- | ------------ |
 | ` GenreComparison ` | *Richiede una stringa di tipo "Genre" o "All".*
 | ` GenreElements ` | *Vettore contenente tutti i generi inseriti dall'utente.*
-| ` GenreName ` | *Richiede un genere ammesso.*
+| ` GenreName ` | *Richiede un genere ammesso da Ticketmaster.*
 
 <a name="1"></a>
 ### 1.   /total
