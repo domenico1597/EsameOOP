@@ -8,7 +8,6 @@
 * [Diagrammi UML](#uml)
 * [Avvio dell'applicazione](#avvio)
 * [Rotte](#rotte)
-* [Rotte Aggiuntive](#rotteaggiuntive)
 * [JUnit Test](#test)
 * [Documentazione Javadoc](#doc)
 * [Autori](#autor)
