@@ -125,10 +125,11 @@ In tal caso, viene visualizzato il numero totale di eventi, raggruppati per gene
 L'utente riceverà un JSONObject in risposta come segue:
 
 ```
+```
 ![Screenshot (204)](https://user-images.githubusercontent.com/114992312/212469852-615a3fa4-4a82-430b-93a9-b4995f42e9b2.png)
 
 
-```
+
      
      
  <a name="3"></a>
@@ -164,11 +165,11 @@ Inoltre viene visualizzata la media di eventi totali mensili che si svolgono in 
 L'utente riceverà un JSONObject in risposta come segue:
 
 ```
-
+```
 ![Screenshot (205)](https://user-images.githubusercontent.com/114992312/212469871-bd1cd615-0853-4a29-88b2-24fdbc224909.png)
 
 
-```
+
 <a name="test"></a>
 ## JUnit Test
 <a name="doc"></a>
