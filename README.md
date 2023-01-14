@@ -69,6 +69,7 @@ localhost:8080/total
 ```
 Richiede un body di questo tipo:
 
+     {
      "CountryComparison": "Country",
      "CountryElements": [
         {
@@ -88,6 +89,7 @@ Richiede un body di questo tipo:
           "GenreName": "Pop"
         }
      ]
+     }
 
 In tal caso, viene visualizzato il numero totale di eventi che si svolgono in Gran Bretagna e in Francia i cui generi sono Rock e Pop.
 
