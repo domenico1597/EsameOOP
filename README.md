@@ -51,19 +51,19 @@ N° | Tipo | Rotta | Descrizione
 ## Body della rotta e risposta JSON
 Dal momento che tutte le rotte sono di tipo POST, l'utente necessita di un Body per effettuare le richieste.
 
-### Requisiti per il corretto funzionamento
+### <p align="center"> Requisiti per il corretto funzionamento </p>
 
-CountryComparison: richiede una stringa di tipo "Country" o "All".
+Elemento | Descrizione
+----- | ------------ |
+| ` CountryComparison ` | *richiede una stringa di tipo "Country" o "All".*
+| ` CountryElements ` | *vettore contenente tutti gli idcountry.*
+| ` CountryName ` | *richiede un idcountry ammesso.*
 
-CountryElements: vettore contenente tutti gli idcountry.
-
-CountryName: richiede un idcountry ammesso.
-
-GenreComparison: richiede una stringa di tipo "Genre" o "All".
-
-GenreElements: vettore contenente tutti i generi.
-
-GenreName: richiede un genere ammesso.
+Elemento | Descrizione
+----- | ------------ |
+| ` GenreComparison ` | *richiede una stringa di tipo "Genre" o "All".*
+| ` GenreElements ` | *vettore contenente tutti i generi.*
+| ` GenreName ` | *richiede un genere ammesso.*
 
 <a name="1"></a>
 ### 1.   /total
