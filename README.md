@@ -161,3 +161,16 @@ L'utente riceverà un JSONObject in risposta come segue:
 ## JUnit Test
 <a name="doc"></a>
 ## Documentazione Javadoc
+Ogni package, classe, attributo e metodo che costituisce il software 'Ticketmaster' è interamente e completamente documentato attraverso l'utilizzo della JavaDoc;
+
+In particolare, per accedere alla documentazione tramite pagina HTML, è necessario seguire il percorso:
+`ticketmaster > doc > index.html`.
+
+Una volta aperta la pagina `index.html`, è possibile accedere alla documentazione dell'intero codice selezionando:
+* la voce `OVERVIEW` che descrive ogni package del progetto
+* la voce `TREE` che descrive la gerarchia delle classi del progetto
+* la voce `INDEX` che permette di cercare packages, classi, attributi e metodi in base al carattere iniziale selezionato
+* la voce `INDEX > All Classes` che descrive ogni classe del progetto
+* la voce `INDEX > All Classes > Exception Summary` che descrive la classe di gestione eccezioni del progetto
+
+Ovviamente, cliccando il nome di una qualsiasi classe nella pagina `index.html`, sarà possibile accedere ad informazioni quali metodi, attributi, package di appartenenza, metodo costruttore, autore della classe, ecc...
