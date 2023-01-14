@@ -61,6 +61,13 @@ Elemento | Descrizione
 | ` GenreComparison ` | *Richiede una stringa di tipo "Genre" o "All".*
 | ` GenreElements ` | *Vettore contenente tutti i generi inseriti dall'utente.*
 | ` GenreName ` | *Richiede un genere ammesso da Ticketmaster.*
+<br>   
+<ul>     
+<b> <li> Nel caso in cui l'utente vada ad inserire la stringa "All" in CountryComparison e/o GenreComparison, veranno presi in considerazione, nella richiesta, tutti i paesi europei e tutti i generi, indipendentemente, dal contenuto di CountryElements e/o GenreElements. </li>
+<br>
+<li> Nel caso in cui l'utente vada ad inserire la stringa "Country" e/o "Genre", verranno presi in considerazione, nella richiesta, esclusivamente i paesi europei e/o i generi selezionati dall'utente. </li>
+</b>
+</ul>
 
 </p>
 
@@ -107,6 +114,7 @@ localhost:8080/genretotal
 ```
 Richiede un body di questo tipo:
 
+    {
      "CountryComparison": "Country",
      "CountryElements": [
         {
@@ -116,6 +124,7 @@ Richiede un body di questo tipo:
           "CountryName": "FR"
         }
       ]
+     }
       
 In tal caso, viene visualizzato il numero totale di eventi, raggruppati per genere, che si svolgono in Gran Bretagna e in Francia.
 
@@ -129,29 +138,16 @@ L'utente riceverà un JSONObject in risposta come segue:
 localhost:8080/stats
 ```
 Richiede un body di questo tipo:
-
+     
+     {
      "CountryComparison": "All",
-     "CountryElements": [
-        {
-          "CountryName": "GB"
-        },
-        {
-          "CountryName": "FR"
-        }
-      ],
+     "CountryElements": [],
 
      "GenreComparison": "All",
-     "GenreElements": [
-        {
-          "GenreName": "Rock"
-        },
-        {
-          "GenreName": "Pop"
-        }
-     ]
-
-In tal caso, viene visualizzato il paese con il minore e il maggiore numero totale di eventi mensili tra Gran Bretagna e Francia, i cui generi sono Rock e Pop. 
-Inoltre viene visualizzata la media di eventi totali mensili che si svolgono in Gran Bretagna e Francia.
+     "GenreElements": []
+      }
+In tal caso, viene visualizzato il paese con il minore e il maggiore numero totale di eventi mensili. 
+Inoltre, viene visualizzata la media degli eventi totali mensili che si svolgono in tutti i paesi europei.
 
 L'utente riceverà un JSONObject in risposta come segue:
 
