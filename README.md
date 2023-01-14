@@ -8,6 +8,7 @@
 * [Diagrammi UML](#uml)
 * [Avvio dell'applicazione](#avvio)
 * [Rotte](#rotte)
+* [Eccezioni](#eccezioni)
 * [JUnit Test](#test)
 * [Documentazione Javadoc](#doc)
 * [Autori](#autor)
@@ -153,6 +154,26 @@ L'utente riceverà un JSONObject in risposta come segue:
 
 ![Screenshot (205)](https://user-images.githubusercontent.com/114992312/212469871-bd1cd615-0853-4a29-88b2-24fdbc224909.png)
 
+<a name="eccezioni"></a>
+## Eccezioni
+Le rotte riportate sopra possono generare le seguenti ***eccezioni***:
+  * Nel caso in cui l'utente inserisca un countryCode di un paese non europeo oppure non esistente viene generata un'eccezione del tipo ***WrongCountryException*** che restituisce un messaggio di questo tipo:
+
+   ```
+    {country} non è un valore ammesso.
+   ```
+   * Nel caso in cui l'utente inserisca un genere non esistente viene generata un'eccezione del tipo ***WrongGenreException*** che restituisce un messaggio di questo tipo:
+
+   ```
+    {genre} non è un valore ammesso.
+   ```
+  * Nel caso in cui l'utente inserisca un Comparison diverso da Genre/Country/All viene generata un'eccezione del tipo ***WrongComparisonException*** che restituisce un messaggio di questo tipo:
+
+   ```
+    {CountryComparison} non è un valore ammesso. Scegliere un valore tra Country o All.
+
+    {GenreComparison} non è un valore ammesso. Scegliere un valore tra Genre o All.   
+   ```
 <a name="test"></a>
 ## JUnit Test
 <a name="doc"></a>
