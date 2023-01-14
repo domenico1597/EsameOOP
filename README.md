@@ -63,7 +63,7 @@ Elemento | Descrizione
 | ` GenreName ` | *Richiede un genere ammesso da Ticketmaster.*
 <br>   
 <ul>     
-<b> <li> Nel caso in cui l'utente vada ad inserire la stringa "All" in CountryComparison e/o GenreComparison, veranno presi in considerazione, nella richiesta, tutti i paesi europei e tutti i generi, indipendentemente, dal contenuto di CountryElements e/o GenreElements. </li>
+<b> <li> Nel caso in cui l'utente vada ad inserire la stringa "All", veranno presi in considerazione, nella richiesta, tutti i paesi europei e tutti i generi, indipendentemente, dal contenuto di CountryElements e/o GenreElements. </li>
 <br>
 <li> Nel caso in cui l'utente vada ad inserire la stringa "Country" e/o "Genre", verranno presi in considerazione, nella richiesta, esclusivamente i paesi europei e/o i generi selezionati dall'utente. </li>
 </b>
