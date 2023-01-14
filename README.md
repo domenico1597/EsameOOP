@@ -63,7 +63,7 @@ GenreComparison: richiede una stringa di tipo "Genre" o "All".
 GenreName: richiede un genere ammesso.
 
 <a name="1"></a>
-## 1.   /total
+### 1.   /total
 ```
 localhost:8080/total
 ```
@@ -104,7 +104,7 @@ L'utente riceverà un JSONObject in risposta come segue:
     "Events": [
 ```
 <a name="2"></a>
-## 2.   /genretotal
+### 2.   /genretotal
 ```
 localhost:8080/genretotal
 ```
@@ -133,7 +133,7 @@ L'utente riceverà un JSONObject in risposta come segue:
      
      
  <a name="3"></a>
-## 3.   /stats
+### 3.   /stats
 ```
 localhost:8080/stats
 ```
