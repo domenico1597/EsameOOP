@@ -29,7 +29,8 @@ la media degli eventi mensili dei paesi/generi specificati dall'utente.
 
 *Diagramma dei Casi d'Uso*
 ***
-![DiagrammaCasiUso_0_1](https://user-images.githubusercontent.com/116668334/212486415-3820bf53-22d2-4b6c-a058-55df3ea6973f.jpg)
+![DiagrammaCasiUso_0_1](https://user-images.githubusercontent.com/116668334/212487777-ff6b39c7-fdd7-4fab-aa8f-a775b659fdd2.jpg)
+
 
 *Diagramma delle Classi*
 ***
