@@ -173,9 +173,9 @@ Le rotte riportate sopra possono generare le seguenti ***eccezioni***:
   * Nel caso in cui l'utente inserisca un Comparison diverso da Genre/Country/All viene generata un'eccezione del tipo ***WrongComparisonException*** che restituisce un messaggio di questo tipo:
 
    ```
-    {CountryComparison} non è un valore ammesso. Scegliere un valore tra Country o All.
+    {CountryComparison} non è un valore ammesso. Scegliere un valore tra Country e All.
 
-    {GenreComparison} non è un valore ammesso. Scegliere un valore tra Genre o All.   
+    {GenreComparison} non è un valore ammesso. Scegliere un valore tra Genre e All.   
    ```
 <a name="test"></a>
 ## JUnit Test
