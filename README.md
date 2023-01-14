@@ -51,20 +51,18 @@ N° | Tipo | Rotta | Descrizione
 ## Body della rotta e risposta JSON
 Dal momento che tutte le rotte sono di tipo POST, l'utente necessita di un Body per effettuare le richieste.
 
-
-### Requisiti per il corretto funzionamento delle rotte
+### <p align="justify"> Requisiti per il corretto funzionamento delle rotte
 
 Elemento | Descrizione
 ----- | ------------ |
 | ` CountryComparison ` | *Richiede una stringa di tipo "Country" o "All".*
 | ` CountryElements ` | *Vettore contenente tutti gli idcountry inseriti dall'utente.*
 | ` CountryName ` | *Richiede un idcountry ammesso da Ticketmaster.*
-
-Elemento | Descrizione
------ | ------------ |
 | ` GenreComparison ` | *Richiede una stringa di tipo "Genre" o "All".*
 | ` GenreElements ` | *Vettore contenente tutti i generi inseriti dall'utente.*
 | ` GenreName ` | *Richiede un genere ammesso da Ticketmaster.*
+
+</p>
 
 <a name="1"></a>
 ### 1.   /total
