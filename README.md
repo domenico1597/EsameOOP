@@ -47,6 +47,8 @@ Genrecomparison: Genre
 ![TicketmasterModel Sequence Diagram_2](https://user-images.githubusercontent.com/116668334/212540395-7724de60-7183-42a4-a242-d4bc7d005e4b.jpg)
 
 <b> /stats </b>
+Genrecomparison: All
+![TicketmasterModel Sequence Diagram_4](https://user-images.githubusercontent.com/116668334/212541184-ac9e58e4-3f9c-470b-a767-17ed79952bf9.jpg)
 Genrecomparison: Genre
 ![TicketmasterModel Sequence Diagram_3](https://user-images.githubusercontent.com/116668334/212540739-bd11d65b-f16e-42e8-9355-b376c5149af2.jpg)
 
