@@ -36,25 +36,27 @@ la media degli eventi mensili dei paesi/generi specificati dall'utente.
 ***
 *Diagramma delle Sequenze*
 ***
-<b> /total </b>
-<br>
-Genrecomparison: All
-<br>
+Per la rotta <b> /total </b> con :
+
+#### Genrecomparison: All
 ![TicketmasterModel Sequence Diagram](https://user-images.githubusercontent.com/116668334/212550729-ff8c634f-ca43-4bb2-ac7e-2ccc4c11f9c0.jpg)
 
 
 
-Genrecomparison: Genre
+#### Genrecomparison: Genre
 ![TicketmasterModel Sequence Diagram_2](https://user-images.githubusercontent.com/116668334/212550932-53187fbf-05fd-44c0-a313-695f013cc7ba.jpg)
 
+***
 
-<b> /stats </b>
-Genrecomparison: All
+Per la rotta <b> /stats </b> con :
+#### Genrecomparison: All
 ![TicketmasterModel Sequence Diagram_4](https://user-images.githubusercontent.com/116668334/212551133-75954a90-037f-4d4e-92c7-dee5be57d2c6.jpg)
-Genrecomparison: Genre
+#### Genrecomparison: Genre
 ![TicketmasterModel Sequence Diagram_3](https://user-images.githubusercontent.com/116668334/212551018-0ed6a7a3-8428-4743-94b5-cee3ea9dfca2.jpg)
+***
 
-<b> /genretotal </b>
+Per la rotta <b> /genretotal </b> :
+
 ![TicketmasterModel Sequence Diagram_5](https://user-images.githubusercontent.com/116668334/212551212-39b9d1e2-1450-4e7a-a999-67c44769dbd6.jpg)
 
 
