@@ -40,17 +40,22 @@ la media degli eventi mensili dei paesi/generi specificati dall'utente.
 <br>
 Genrecomparison: All
 <br>
-![TicketmasterModel Sequence Diagram](https://user-images.githubusercontent.com/116668334/212539253-c5838ca8-caa9-4e62-b21b-232f3ad8b430.jpg)
+![TicketmasterModel Sequence Diagram](https://user-images.githubusercontent.com/116668334/212550729-ff8c634f-ca43-4bb2-ac7e-2ccc4c11f9c0.jpg)
+
 
 
 Genrecomparison: Genre
-![TicketmasterModel Sequence Diagram_2](https://user-images.githubusercontent.com/116668334/212540395-7724de60-7183-42a4-a242-d4bc7d005e4b.jpg)
+![TicketmasterModel Sequence Diagram_2](https://user-images.githubusercontent.com/116668334/212550932-53187fbf-05fd-44c0-a313-695f013cc7ba.jpg)
+
 
 <b> /stats </b>
 Genrecomparison: All
-![TicketmasterModel Sequence Diagram_4](https://user-images.githubusercontent.com/116668334/212541184-ac9e58e4-3f9c-470b-a767-17ed79952bf9.jpg)
+![TicketmasterModel Sequence Diagram_4](https://user-images.githubusercontent.com/116668334/212551133-75954a90-037f-4d4e-92c7-dee5be57d2c6.jpg)
 Genrecomparison: Genre
-![TicketmasterModel Sequence Diagram_3](https://user-images.githubusercontent.com/116668334/212540739-bd11d65b-f16e-42e8-9355-b376c5149af2.jpg)
+![TicketmasterModel Sequence Diagram_3](https://user-images.githubusercontent.com/116668334/212551018-0ed6a7a3-8428-4743-94b5-cee3ea9dfca2.jpg)
+
+<b> /genretotal </b>
+![TicketmasterModel Sequence Diagram_5](https://user-images.githubusercontent.com/116668334/212551212-39b9d1e2-1450-4e7a-a999-67c44769dbd6.jpg)
 
 
 
