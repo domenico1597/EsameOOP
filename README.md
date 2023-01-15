@@ -36,6 +36,14 @@ la media degli eventi mensili dei paesi/generi specificati dall'utente.
 ***
 *Diagramma delle Sequenze*
 ***
+<b> /total </b>
+<br>
+Genrecomparison: All
+<br>
+![TicketmasterModel Sequence Diagram](https://user-images.githubusercontent.com/116668334/212539253-c5838ca8-caa9-4e62-b21b-232f3ad8b430.jpg)
+
+
+Genrecomparison: Genre
 
 <a name="rotte"></a>
 ## Rotte
