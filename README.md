@@ -44,6 +44,8 @@ Genrecomparison: All
 
 
 Genrecomparison: Genre
+![TicketmasterModel Sequence Diagram_2](https://user-images.githubusercontent.com/116668334/212540395-7724de60-7183-42a4-a242-d4bc7d005e4b.jpg)
+
 
 <a name="rotte"></a>
 ## Rotte
