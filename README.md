@@ -220,3 +220,7 @@ Una volta aperta la pagina `index.html`, è possibile accedere alla documentazio
 * la voce `INDEX > All Classes > Exception Summary` che descrive la classe di gestione eccezioni del progetto
 
 Ovviamente, cliccando il nome di una qualsiasi classe nella pagina `index.html`, sarà possibile accedere ad informazioni quali metodi, attributi, package di appartenenza, metodo costruttore, autore della classe, ecc...
+<a name="autor"></a>
+## Autori
+Domenico Ciavarella
+Daniele Cota
