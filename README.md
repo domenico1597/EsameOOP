@@ -36,6 +36,8 @@ la media degli eventi mensili dei paesi/generi specificati dall'utente.
 ***
 *Diagramma delle Sequenze*
 ***
+<b> N.B. </b> Nei seguenti diagrammi delle sequenze, nel caso in cui il CountryComparison è "All" ogni rotta farà inizialmente una chiamata alla classe EuroCountires per aggiungere tutte le nazioni tramite il metodo getEuroCountries(). Viceversa, se il CountryComparison è "Country" il diagramma rimarrà invariato rispetto a quelli mostrati.
+***
 Per la rotta <b> /total </b> con :
 
 #### Genrecomparison: All
