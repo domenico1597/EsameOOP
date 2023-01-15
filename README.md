@@ -222,5 +222,7 @@ Una volta aperta la pagina `index.html`, è possibile accedere alla documentazio
 Ovviamente, cliccando il nome di una qualsiasi classe nella pagina `index.html`, sarà possibile accedere ad informazioni quali metodi, attributi, package di appartenenza, metodo costruttore, autore della classe, ecc...
 <a name="autor"></a>
 ## Autori
-Domenico Ciavarella
+Hanno contribuito alla realizzazione di questo progetto:
+
+Domenico Ciavarella <br>
 Daniele Cota
