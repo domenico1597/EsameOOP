@@ -235,6 +235,58 @@ Di seguito vengono mostrati i countryCode dei paesi europei supportati da Ticket
 | `Turkey`  |`TR`
 | `Ukraine` | `UA`
 
+
+<a name="genere"></a>
+## Generi supportati
+
+Di seguito vengono mostrati i generi supportati per le rotte /total e /stats:
+
+| Generi |  
+| ------------ | 
+|`Alternative`|
+|`Aquatics`|
+|`AthleticRaces`|
+|`Basketball`|
+|`Blues`|
+|`Boxing`|
+|`ChildrensTheatre`|
+|`CircusSpecialtyActs`|
+|`Classical`|
+|`Comedy`|
+|`CommunityCivic`|
+|`Country`|
+|`Cricket`|
+|`Cycling`|
+|`Dance`|
+|`DanceElectronic`|
+|`Equestrian`|
+|`Family`|
+|`Fashion`|
+|`Folk`|
+|`HipHopRap`|
+|`HobbySpecialInterestExpos`|
+|`IceShows`|
+|`Jazz`|
+|`MagicIllusion`|
+|`MartialArts`|
+|`Metal`|
+|`Miscellaneous`|
+|`MiscellaneousTheatre`|
+|`MotorsportsRacing`|
+|`PerformanceArt`|
+|`Pop`|
+|`Reggae`|
+|`Rock`|
+|`Rugby`|
+|`RB`|
+|`Spectacular`|
+|`Theatre`|
+|`Undefined`|
+|`Variety`|
+|`Volleyball`|
+|`World`|
+|`Wrestling`|
+
 <a name="eccezioni"></a>
 ## Eccezioni
 Le rotte riportate sopra possono generare le seguenti ***eccezioni***:
