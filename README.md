@@ -21,8 +21,10 @@ Il programma Ticketmaster permette di studiare gli eventi che avranno luogo in E
 
 L'applicazione consente di ottenere le informazioni relative agli eventi che si svolgono nei paesi europei supportati da Ticketmaster, permettendo all'utente di scegliere se visualizzare la globalità degli eventi di uno o più paesi e/o di raggruppare questi ultimi in base ad uno o più generi.
 Inoltre, l'utente può effettuare delle statistiche sugli eventi per visualizzare:
-quale tra i paesi selezionati presenti il maggior e il minor numero di eventi mensili.
-la media degli eventi mensili dei paesi/generi specificati dall'utente.
+     
+-quale tra i paesi selezionati presenti il maggior e il minor numero di eventi mensili.
+     
+-la media degli eventi mensili dei paesi/generi specificati dall'utente.
 </p>
 
 <a name="uml"></a>
@@ -40,7 +42,7 @@ la media degli eventi mensili dei paesi/generi specificati dall'utente.
 
 *Diagramma delle Sequenze*
 ***
-<b> N.B. </b> Nei seguenti diagrammi delle sequenze, nel caso in cui il CountryComparison è "All" ogni rotta farà inizialmente una chiamata alla classe EuroCountires per aggiungere tutte le nazioni tramite il metodo getEuroCountries(). Viceversa, se il CountryComparison è "Country" il diagramma rimarrà invariato rispetto a quelli mostrati.
+<b> N.B. </b> Nei seguenti diagrammi delle sequenze, nel caso in cui il CountryComparison è "All" ogni rotta farà inizialmente una chiamata alla classe EuroCountries per aggiungere tutte le nazioni tramite il metodo getEuroCountries(). Viceversa, se il CountryComparison è "Country" il diagramma rimarrà invariato rispetto a quelli mostrati.
 ***
 Per la rotta <b> /total </b> con :
 
@@ -160,7 +162,7 @@ Richiede un body di questo tipo:
       ]
      }
       
-In tal caso, viene visualizzato il numero totale di eventi, raggruppati per genere, che si svolgono in Gran Bretagna e in Francia.
+Nel caso sopracitato, viene visualizzato il numero totale di eventi, raggruppati per genere, che si svolgono in Gran Bretagna e in Francia.
 
 L'utente riceverà un JSONObject in risposta come segue:
 
