@@ -7,6 +7,7 @@
 * [Introduzione](#intro)
 * [Diagrammi UML](#uml)
 * [Rotte](#rotte)
+* [CountryCode supportati](#countrycode)
 * [Eccezioni](#eccezioni)
 * [JUnit Test](#test)
 * [Documentazione Javadoc](#doc)
@@ -184,6 +185,55 @@ Inoltre, viene visualizzata la media degli eventi totali mensili che si svolgono
 L'utente riceverà un JSONObject in risposta come segue:
 
 ![Screenshot (205)](https://user-images.githubusercontent.com/114992312/212469871-bd1cd615-0853-4a29-88b2-24fdbc224909.png)
+
+<a name="countrycode"></a>
+##CountryCode supportati
+
+Di seguito vengono mostrati i countryCode dei paesi europei supportati da Ticketmaster:
+
+| Country | countryCode 
+| ------------ | -------------------- 
+| `Andorra` | `AD`
+| `Austria`  |`AT`
+| `Belgium` | `BE`
+| `Bulgaria` | `BG`
+| `Croatia`  |`HR`
+| `Cyprus` | `CY`
+| `Czech Republic` | `CZ`
+| `Denmark`  |`DK`
+| `Estonia` | `EE`
+| `Faroe Islands`  |`FO`
+| `Finland` | `FI`
+| `France`  |`FR`
+| `Georgia` | `GE`
+| `Germany`  |`DE`
+| `Gibraltar` | `GI`
+| `Great Britain`  |`GB`
+| `Greece` | `GR`
+| `Hungary`  |`HU`
+| `Iceland` | `IS`
+| `Ireland`  |`IE`
+| `Italy` | `IT`
+| `Lithuania`  |`LT`
+| `Luxembourg` | `LU`
+| `Malta`  |`MT`
+| `Monaco` | `MC`
+| `Montenegro`  |`ME`
+| `Netherlands` | `NL`
+| `Northern Ireland`  |`ND`
+| `Norway` | `NO`
+| `Poland`  |`PL`
+| `Portugal` | `PT`
+| `Romania`  |`RO`
+| `Russia` | `RU`
+| `Serbia`  |`RS`
+| `Slovakia` | `SK`
+| `Slovenia`  |`SI`
+| `Spain` | `ES`
+| `Sweden`  |`SE`
+| `Switzerland` | `CH`
+| `Turkey`  |`TR`
+| `Ukraine` | `UA`
 
 <a name="eccezioni"></a>
 ## Eccezioni
