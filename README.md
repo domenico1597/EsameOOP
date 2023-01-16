@@ -187,7 +187,7 @@ L'utente riceverà un JSONObject in risposta come segue:
 ![Screenshot (205)](https://user-images.githubusercontent.com/114992312/212469871-bd1cd615-0853-4a29-88b2-24fdbc224909.png)
 
 <a name="countrycode"></a>
-##CountryCode supportati
+## CountryCode supportati
 
 Di seguito vengono mostrati i countryCode dei paesi europei supportati da Ticketmaster:
 
