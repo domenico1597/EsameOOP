@@ -34,6 +34,9 @@ la media degli eventi mensili dei paesi/generi specificati dall'utente.
 
 *Diagramma delle Classi*
 ***
+![TicketmasterModel Class Diagram](https://user-images.githubusercontent.com/116668334/212713427-8b224e12-bc76-4b48-94b4-516f18539ca9.jpg)
+
+
 *Diagramma delle Sequenze*
 ***
 <b> N.B. </b> Nei seguenti diagrammi delle sequenze, nel caso in cui il CountryComparison è "All" ogni rotta farà inizialmente una chiamata alla classe EuroCountires per aggiungere tutte le nazioni tramite il metodo getEuroCountries(). Viceversa, se il CountryComparison è "Country" il diagramma rimarrà invariato rispetto a quelli mostrati.
