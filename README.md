@@ -8,6 +8,7 @@
 * [Diagrammi UML](#uml)
 * [Rotte](#rotte)
 * [CountryCode supportati](#countrycode)
+* [Generi supportati](#generi)
 * [Eccezioni](#eccezioni)
 * [JUnit Test](#test)
 * [Documentazione Javadoc](#doc)
@@ -236,7 +237,7 @@ Di seguito vengono mostrati i countryCode dei paesi europei supportati da Ticket
 | `Ukraine` | `UA`
 
 
-<a name="genere"></a>
+<a name="generi"></a>
 ## Generi supportati
 
 Di seguito vengono mostrati i generi supportati per le rotte /total e /stats:
