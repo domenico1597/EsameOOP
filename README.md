@@ -210,6 +210,9 @@ Le rotte riportate sopra possono generare le seguenti ***eccezioni***:
 ## JUnit Test
 <a name="doc"></a>
 ## Documentazione Javadoc
+
+Il codice Java è documentato in [Javadoc](https://github.com/domenico1597/EsameOOP/tree/main/TicketMaster/doc).
+
 Ogni package, classe, attributo e metodo che costituisce il software 'Ticketmaster' è interamente e completamente documentato attraverso l'utilizzo della JavaDoc;
 
 In particolare, per accedere alla documentazione tramite pagina HTML, è necessario seguire il percorso:
