@@ -79,7 +79,7 @@ Le rotte definite sono le seguenti:
 N° | Tipo | Rotta | Descrizione
 ----- | ------------ | -------------------- | ----------------------
 [1](#1) | ` POST ` | `/total` | *Restituisce un JSONArray contenente il numero totale di eventi, che possono essere filtrati per uno o più stati e/o per uno o più generi.*
-[2](#2) | ` POST ` | `/genretotal` | *Restituisce un JSONArray contenente il numero totale di eventi raggruppati per genere, che possono essere filtrati per uno o più stati.*
+[2](#2) | ` POST ` | `/genretotal` | *Restituisce un JSONArray contenente i primi 500 eventi raggruppati per genere, che possono essere filtrati per uno o più stati.*
 [3](#3) | ` POST ` | `/stats` | *Restituisce un JSONArray contenente le statistiche relative al numero minimo, massimo, medio di eventi mensili, che possono essere filtrati per uno o più stati e/o per uno o più generi.*
 
 </p>
