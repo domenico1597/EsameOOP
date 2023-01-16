@@ -6,7 +6,6 @@
 ## **Indice**
 * [Introduzione](#intro)
 * [Diagrammi UML](#uml)
-* [Avvio dell'applicazione](#avvio)
 * [Rotte](#rotte)
 * [Eccezioni](#eccezioni)
 * [JUnit Test](#test)
