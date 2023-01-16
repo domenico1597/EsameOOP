@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"controller"},{"l":"exception"},{"l":"filter"},{"l":"it.univpm.TicketMaster"},{"l":"stats"}];updateSearchResults();
