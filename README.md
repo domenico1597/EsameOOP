@@ -173,7 +173,8 @@ Nel caso sopracitato, viene visualizzato il numero totale di eventi, raggruppati
 
 L'utente riceverà un JSONObject in risposta come segue:
 
-![Screenshot (204)](https://user-images.githubusercontent.com/114992312/212469852-615a3fa4-4a82-430b-93a9-b4995f42e9b2.png)
+![Screenshot (204)](![Screenshot (207)](https://user-images.githubusercontent.com/114992312/212901486-2a446b50-eb2f-4ae2-a11a-15be6fdc31cf.png)
+)
 
 <a name="3"></a>
 ### 3.   /stats
