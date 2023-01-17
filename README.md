@@ -108,7 +108,7 @@ Elemento | Descrizione
 <br>
 <li> Nel caso in cui l'utente vada ad inserire la stringa "Country" e/o "Genre", verranno presi in considerazione, nella richiesta, esclusivamente gli stati europei e/o i generi selezionati dall'utente. </li>
 <br>
-<li> N.B: Nel caso in cui CountryComparison è "All" potrebbe essere necessario ripetere più volte la chiamata in quanto l'utente potrebbe eccedere il numero di richieste al minuto concesse da Postman.     
+<li> N.B: Nel caso in cui CountryComparison è "All" l'utente potrebbe eccedere il numero di richieste al minuto concesse da Postman; in tal caso sarà necessario ripetere più volte la chiamata.     
 </b>
 </ul>
 
