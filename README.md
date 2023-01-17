@@ -22,12 +22,12 @@ Il programma Ticketmaster permette di studiare gli eventi che avranno luogo in E
 
 L'applicazione consente di ottenere le informazioni relative agli eventi che si svolgono nei paesi europei, supportati da Ticketmaster, permettendo all'utente di scegliere, se visualizzare:
 
-     1) il numero totale di eventi di uno o più paesi e/o di raggruppare questi ultimi in base ad uno o più generi.
+     1) il numero totale di eventi di uno o più stati e/o di raggruppare questi ultimi in base ad uno o più generi.
      
-     2) il numero totale di eventi raggruppati per genere, relativi ad uno o più paesi.
+     2) il numero totale di eventi raggruppati per genere, relativi ad uno o più stati.
      
-     3) le statistiche riguardanti il numero totale di eventi mensili; in particolare: il paese, tra quelli scelti 
-     dall'utente, che presenta il maggior e il minor numero di eventi, la media degli eventi mensili dei paesi/generi 
+     3) le statistiche riguardanti il numero totale di eventi mensili; in particolare: lo stato, tra quelli scelti 
+     dall'utente, che presenta il maggior e il minor numero di eventi, la media degli eventi mensili degli stati/generi 
      specificati dall'utente
      
 </p>
@@ -47,7 +47,7 @@ L'applicazione consente di ottenere le informazioni relative agli eventi che si 
 
 *Diagramma delle Sequenze*
 ***
-<b> N.B. Nei seguenti diagrammi delle sequenze, nel caso in cui il CountryComparison è "All" ogni rotta, nel Controller, farà inizialmente una chiamata alla classe EuroCountries, per aggiungere tutte le nazioni, tramite il metodo getEuroCountries(). 
+<b> N.B. Nei seguenti diagrammi delle sequenze, nel caso in cui il CountryComparison è "All" ogni rotta, nel Controller, farà inizialmente una chiamata alla classe EuroCountries, per aggiungere tutte gli stati, tramite il metodo getEuroCountries(). 
      
 Viceversa, se il CountryComparison è "Country" il diagramma rimarrà invariato rispetto a quelli mostrati. </b>
 ***
@@ -106,9 +106,9 @@ Elemento | Descrizione
 | ` GenreName ` | *Richiede un genere ammesso da Ticketmaster.*
 <br>   
 <ul>     
-<b> <li> Nel caso in cui l'utente vada ad inserire la stringa "All", veranno presi in considerazione, nella richiesta, tutti i paesi europei e tutti i generi, indipendentemente, dal contenuto di CountryElements e/o GenreElements. </li>
+<b> <li> Nel caso in cui l'utente vada ad inserire la stringa "All", veranno presi in considerazione, nella richiesta, tutti gli stati europei e tutti i generi, indipendentemente, dal contenuto di CountryElements e/o GenreElements. </li>
 <br>
-<li> Nel caso in cui l'utente vada ad inserire la stringa "Country" e/o "Genre", verranno presi in considerazione, nella richiesta, esclusivamente i paesi europei e/o i generi selezionati dall'utente. </li>
+<li> Nel caso in cui l'utente vada ad inserire la stringa "Country" e/o "Genre", verranno presi in considerazione, nella richiesta, esclusivamente gli stati europei e/o i generi selezionati dall'utente. </li>
 <br>
 <li> N.B: Nel caso in cui CountryComparison è "All" potrebbe essere necessario ripetere più volte la chiamata in quanto l'utente potrebbe eccedere il numero di richieste al minuto concesse da Postman.     
 </b>
@@ -191,8 +191,8 @@ Richiede un body di questo tipo:
      "GenreComparison": "All",
      "GenreElements": []
       }
-In tal caso, viene visualizzato il paese con il minore e il maggiore numero totale di eventi mensili. 
-Inoltre, viene visualizzata la media degli eventi totali mensili che si svolgono in tutti i paesi europei.
+In tal caso, viene visualizzato lo stato con il minore e il maggiore numero totale di eventi mensili. 
+Inoltre, viene visualizzata la media degli eventi totali mensili che si svolgono in tutti gli stati europei.
 
 L'utente riceverà un JSONObject in risposta come segue:
 
@@ -201,7 +201,7 @@ L'utente riceverà un JSONObject in risposta come segue:
 <a name="countrycode"></a>
 ## CountryCode supportati
 
-Di seguito vengono mostrati i countryCode dei paesi europei supportati da Ticketmaster:
+Di seguito vengono mostrati i countryCode degli stati europei supportati da Ticketmaster:
 
 | Country | countryCode 
 | ------------ | -------------------- 
@@ -302,7 +302,7 @@ Di seguito vengono mostrati i generi supportati per le rotte /total e /stats:
 <a name="eccezioni"></a>
 ## Eccezioni
 Le rotte riportate sopra possono generare le seguenti ***eccezioni***:
-  * Nel caso in cui l'utente inserisca un countryCode di un paese non europeo oppure non esistente viene generata un'eccezione del tipo ***WrongCountryException*** che restituisce un messaggio di questo tipo:
+  * Nel caso in cui l'utente inserisca un countryCode di uno stato non europeo oppure non esistente viene generata un'eccezione del tipo ***WrongCountryException*** che restituisce un messaggio di questo tipo:
 
    ```
     {country} non è un valore ammesso.
@@ -338,7 +338,7 @@ Abbiamo implementato i seguenti [test](https://github.com/domenico1597/EsameOOP/
      
 <br>
      
-2) Abbiamo testato l'effettivo funzionamento delle eccezioni riguardanti l'inserimento di una nazione e/o di un genere errati.
+2) Abbiamo testato l'effettivo funzionamento delle eccezioni riguardanti l'inserimento di uno stato e/o di un genere errati.
 
 <p align="center">
 
