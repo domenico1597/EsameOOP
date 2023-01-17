@@ -26,9 +26,7 @@ L'applicazione consente di ottenere le informazioni relative agli eventi che si 
      
      2) il numero totale di eventi raggruppati per genere, relativi ad uno o più stati.
      
-     3) le statistiche riguardanti il numero totale di eventi mensili; in particolare: lo stato, tra quelli scelti 
-     dall'utente, che presenta il maggior e il minor numero di eventi, la media degli eventi mensili degli stati/generi 
-     specificati dall'utente
+     3) le statistiche riguardanti il numero totale di eventi mensili, con stati/generi specificati dall'utente; in particolare: lo stato che presenta il maggior e il minor numero di eventi e la media degli eventi tra i vari stati.
      
 </p>
 
