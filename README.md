@@ -314,6 +314,14 @@ Le rotte riportate sopra possono generare le seguenti ***eccezioni***:
    ```
 <a name="test"></a>
 ## JUnit Test
+<br>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/116668334/212886861-ff08c756-faeb-4748-b1f9-ab90116dc1c9.jpg" width="367" height="267">
+<img src="https://user-images.githubusercontent.com/116668334/212886881-39423218-54cd-4d4f-a008-d3deb88b0932.jpg" width="367" height="267">
+<img src="https://user-images.githubusercontent.com/116668334/212886896-f7e45bbe-cbcb-43c8-8e95-caed9a37a4f9.jpg" width="367" height="267">
+<img src="https://user-images.githubusercontent.com/116668334/212886937-6a05f945-d108-416f-9f68-6a2cba640685.jpg" width="367" height="267">
+</p>
+
 <a name="doc"></a>
 ## Documentazione Javadoc
 
