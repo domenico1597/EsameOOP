@@ -17,14 +17,19 @@
 <a name="intro"></a>
 ## Introduzione
 <p align="justify">
+
 Il programma Ticketmaster permette di studiare gli eventi che avranno luogo in Europa, utilizzando le API del sito Ticketmaster, reperibili al seguente indirizzo: https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/#search-events-v2. 
 
-L'applicazione consente di ottenere le informazioni relative agli eventi che si svolgono nei paesi europei supportati da Ticketmaster, permettendo all'utente di scegliere se visualizzare la globalità degli eventi di uno o più paesi e/o di raggruppare questi ultimi in base ad uno o più generi.
-Inoltre, l'utente può effettuare delle statistiche sugli eventi per visualizzare:
+L'applicazione consente di ottenere le informazioni relative agli eventi che si svolgono nei paesi europei, supportati da Ticketmaster, permettendo all'utente di scegliere, se visualizzare:
+
+     1) il numero totale di eventi di uno o più paesi e/o di raggruppare questi ultimi in base ad uno o più generi.
      
--quale tra i paesi selezionati presenti il maggior e il minor numero di eventi mensili.
+     2) il numero totale di eventi raggruppati per genere, relativi ad uno o più paesi.
      
--la media degli eventi mensili dei paesi/generi specificati dall'utente.
+     3) le statistiche riguardanti il numero totale di eventi mensili; in particolare: il paese, tra quelli scelti 
+     dall'utente, che presenta il maggior e il minor numero di eventi, la media degli eventi mensili dei paesi/generi 
+     specificati dall'utente
+     
 </p>
 
 <a name="uml"></a>
@@ -42,7 +47,9 @@ Inoltre, l'utente può effettuare delle statistiche sugli eventi per visualizzar
 
 *Diagramma delle Sequenze*
 ***
-<b> N.B. </b> Nei seguenti diagrammi delle sequenze, nel caso in cui il CountryComparison è "All" ogni rotta farà inizialmente una chiamata alla classe EuroCountries per aggiungere tutte le nazioni tramite il metodo getEuroCountries(). Viceversa, se il CountryComparison è "Country" il diagramma rimarrà invariato rispetto a quelli mostrati.
+<b> N.B. Nei seguenti diagrammi delle sequenze, nel caso in cui il CountryComparison è "All" ogni rotta, nel Controller, farà inizialmente una chiamata alla classe EuroCountries, per aggiungere tutte le nazioni, tramite il metodo getEuroCountries(). 
+     
+Viceversa, se il CountryComparison è "Country" il diagramma rimarrà invariato rispetto a quelli mostrati. </b>
 ***
 Per la rotta <b> /total </b> con :
 
@@ -92,8 +99,8 @@ Dal momento che tutte le rotte sono di tipo POST, l'utente necessita di un Body 
 Elemento | Descrizione
 ----- | ------------ |
 | ` CountryComparison ` | *Richiede una stringa di tipo "Country" o "All".*
-| ` CountryElements ` | *Vettore contenente tutti gli idcountry inseriti dall'utente.*
-| ` CountryName ` | *Richiede un idcountry ammesso da Ticketmaster.*
+| ` CountryElements ` | *Vettore contenente tutti i countrycode inseriti dall'utente.*
+| ` CountryName ` | *Richiede un countrycode ammesso da Ticketmaster.*
 | ` GenreComparison ` | *Richiede una stringa di tipo "Genre" o "All".*
 | ` GenreElements ` | *Vettore contenente tutti i generi inseriti dall'utente.*
 | ` GenreName ` | *Richiede un genere ammesso da Ticketmaster.*
@@ -344,19 +351,6 @@ Abbiamo implementato i seguenti [test](https://github.com/domenico1597/EsameOOP/
 
 Il codice Java è documentato in [Javadoc](https://github.com/domenico1597/EsameOOP/tree/main/TicketMaster/doc).
 
-Ogni package, classe, attributo e metodo che costituisce il software 'Ticketmaster' è interamente e completamente documentato attraverso l'utilizzo della JavaDoc;
-
-In particolare, per accedere alla documentazione tramite pagina HTML, è necessario seguire il percorso:
-`ticketmaster > doc > index.html`.
-
-Una volta aperta la pagina `index.html`, è possibile accedere alla documentazione dell'intero codice selezionando:
-* la voce `OVERVIEW` che descrive ogni package del progetto
-* la voce `TREE` che descrive la gerarchia delle classi del progetto
-* la voce `INDEX` che permette di cercare packages, classi, attributi e metodi in base al carattere iniziale selezionato
-* la voce `INDEX > All Classes` che descrive ogni classe del progetto
-* la voce `INDEX > All Classes > Exception Summary` che descrive la classe di gestione eccezioni del progetto
-
-Ovviamente, cliccando il nome di una qualsiasi classe nella pagina `index.html`, sarà possibile accedere ad informazioni quali metodi, attributi, package di appartenenza, metodo costruttore, autore della classe, ecc...
 <a name="autor"></a>
 ## Autori
 Hanno contribuito alla realizzazione di questo progetto:
