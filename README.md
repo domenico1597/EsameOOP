@@ -315,15 +315,28 @@ Le rotte riportate sopra possono generare le seguenti ***eccezioni***:
 <a name="test"></a>
 ## JUnit Test
 
-Abbiamo implementato i seguenti [test](https://github.com/domenico1597/EsameOOP/tree/main/TicketMaster/src/test/java) per verificare il corretto funzionamento delle eccezioni implementate.
+Abbiamo implementato i seguenti [test](https://github.com/domenico1597/EsameOOP/tree/main/TicketMaster/src/test/java) per verificare il corretto funzionamento delle eccezioni implementate. Per facilitare la comprensione dei test dell'applicativo, vengono considerati i seguenti diagrammi delle classi:
+
 <br>
-Per facilitare la comprensione dei test dell'applicativo, vengono considerati i seguenti diagrammi delle classi:
-<br>
+     
+1) Abbiamo testato l'effettivo funzionamento delle eccezioni riguardanti l'inserimento di un CountryComparison e/o di un GenreComparison errati.
+
 <p align="center">
+     
 <img src="https://user-images.githubusercontent.com/116668334/212886861-ff08c756-faeb-4748-b1f9-ab90116dc1c9.jpg" width="367" height="267">
 <img src="https://user-images.githubusercontent.com/116668334/212886881-39423218-54cd-4d4f-a008-d3deb88b0932.jpg" width="367" height="267">
 <img src="https://user-images.githubusercontent.com/116668334/212886896-f7e45bbe-cbcb-43c8-8e95-caed9a37a4f9.jpg" width="367" height="267">
+     
+</p>
+     
+<br>
+     
+2) Abbiamo testato l'effettivo funzionamento delle eccezioni riguardanti l'inserimento di una nazione e/o di un genere errati.
+
+<p align="center">
+
 <img src="https://user-images.githubusercontent.com/116668334/212886937-6a05f945-d108-416f-9f68-6a2cba640685.jpg" width="367" height="267">
+     
 </p>
 
 <a name="doc"></a>
