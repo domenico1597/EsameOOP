@@ -315,7 +315,7 @@ Le rotte riportate sopra possono generare le seguenti ***eccezioni***:
 <a name="test"></a>
 ## JUnit Test
 
-Abbiamo implementato i seguenti [test](https://github.com/domenico1597/EsameOOP/tree/main/TicketMaster/src/test/java) per verificare il corretto funzionamento delle eccezioni implementate. Per facilitare la comprensione dei test dell'applicativo, vengono considerati i seguenti diagrammi delle classi:
+Abbiamo implementato i seguenti [test](https://github.com/domenico1597/EsameOOP/tree/main/TicketMaster/src/test/java) per verificare il corretto funzionamento delle eccezioni implementate. A tal fine, vengono considerati i seguenti diagrammi delle classi:
 
 <br>
      
